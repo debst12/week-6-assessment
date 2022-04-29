@@ -81,7 +81,7 @@ app.post('/api/duel', (req, res) => {
         } else {
             playerRecord.losses++
             res.status(200).send('You won!')
-            if(playerRecord.wins != playerRecords.wins --) {
+            if(playerRecord.wins != playerRecord.wins --) {
                 rollbar.critical('Wins are not calculating correctly.')
             }
         }
