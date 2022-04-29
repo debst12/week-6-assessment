@@ -1,0 +1,35 @@
+Card ID,Card Name,Card URL,Card Description,Labels,Members,Due Date,Attachment Count,Attachment Links,Checklist Item Total Count,Checklist Item Completed Count,Vote Count,Comment Count,Last Activity Date,List ID,List Name,Board ID,Board Name,Archived
+626c0d13aed4678fc3aaaf40,Test Case: User Navigation - Sanity Test,https://trello.com/c/n0Q7uxaj/1-test-case-user-navigation-sanity-test,"Smoke test, high level test to verify the user can successfully navigate around the site.
+
+Steps:
+1- Navigate to http://localhost:3000/
+2. click buttons: 
+  -See all bots
+  -Draw
+  -Select 2 bots
+  -duel
+  -Play again
+
+Postconditions:
+-Home page should load with information
+-see all bots button should display all bots
+-draw button should display 5 random bots
+-selecting bots should add them to your duo
+-should show computer bots and the duel takes place
+-winner should be declared
+-should bring you back to the beginning",,,,0,,0,0,0,1,2022-04-29T16:14:35.420Z,626c0cdd425e8845932ea712,Passed Test,626c0c22615ce540a132a712,Week 6 Assessment,false
+626c0fb70caadb2b7170c1c2,test case add and remove bots,https://trello.com/c/Gmt4slAS/6-test-case-add-and-remove-bots,"attempt to add and remove different bots before confirming team
+
+expected outcome:
+
+When you click add to duo, it should allow you to add the bot to the duo, and have no more than 2. removing a bot should put it back in your draw pile. adding a different bot should still only allow the max of 2.",,,,0,,0,0,0,1,2022-04-29T16:21:12.388Z,626c0cdd425e8845932ea712,Passed Test,626c0c22615ce540a132a712,Week 6 Assessment,false
+626c0d62f149891331f31743,Test Case: Generate all robots using the see all bots button,https://trello.com/c/FHI5EJKy/2-test-case-generate-all-robots-using-the-see-all-bots-button,"Select  show all bots
+
+should show all bots",,,,0,,0,0,0,1,2022-04-29T16:15:27.466Z,626c0ce0d2090b59b58a3cfd,Failed Test,626c0c22615ce540a132a712,Week 6 Assessment,false
+626c0f3839d2d28ea3fdb8db,"Win a game, lose a game",https://trello.com/c/5t4JczW9/4-win-a-game-lose-a-game,"I will select robots trying to win and trying to lose
+
+Expected outcome is that my win count will increase 1 when I when, and my lose count will increase one when I lose",,,,0,,0,0,0,1,2022-04-29T16:17:11.908Z,626c0ce0d2090b59b58a3cfd,Failed Test,626c0c22615ce540a132a712,Week 6 Assessment,false
+626c0ef97c1f14024f791637,Test Case: Generate all robots using the see all bots button,https://trello.com/c/WXQ49TaN/3-test-case-generate-all-robots-using-the-see-all-bots-button,Select Generate ,,,,0,,0,0,0,0,2022-04-29T16:14:49.167Z,626c0ce571cbe1318b12e0d9,Bug Reports,626c0c22615ce540a132a712,Week 6 Assessment,false
+626c0f8e1311990ca2b02106,win count doesn't increase when you win a game,https://trello.com/c/JYyXGd2W/5-win-count-doesnt-increase-when-you-win-a-game,,,,,0,,0,0,0,0,2022-04-29T16:17:31.634Z,626c0ce571cbe1318b12e0d9,Bug Reports,626c0c22615ce540a132a712,Week 6 Assessment,false
+626c108cf9dec47e6437b8af,"It seems there is supposed to be a favorite icon that is supposed to load, it is not!",https://trello.com/c/1YTADOiH/7-it-seems-there-is-supposed-to-be-a-favorite-icon-that-is-supposed-to-load-it-is-not,"Robot card should have a favorite icon, it is not loading.
+",,,,0,,0,0,0,0,2022-04-29T16:21:55.940Z,626c0ce571cbe1318b12e0d9,Bug Reports,626c0c22615ce540a132a712,Week 6 Assessment,false
