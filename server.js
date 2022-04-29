@@ -39,7 +39,9 @@ app.get('/api/robots', (req, res) => {
         res.status(200).send(botsArr)
     } catch (error) {
         console.log('ERROR GETTING BOTS', error)
+        rollbar.error('Failed to get bots')
         res.sendStatus(400)
+
     }
 })
 
